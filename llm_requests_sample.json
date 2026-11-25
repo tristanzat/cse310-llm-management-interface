@@ -1,0 +1,5425 @@
+[
+  {
+    "id": "req_01WVNY7YZ0",
+    "conversationId": "conv_008200",
+    "userId": "user_0087",
+    "timestamp": "2026-11-16T22:10:34.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1413,
+      "cachedInput": 0,
+      "output": 477,
+      "reasoning": 0,
+      "total": 1890
+    },
+    "performance": {
+      "ttftMs": 449,
+      "generationMs": 2540,
+      "totalLatencyMs": 3006,
+      "tokensPerSecond": 187.8
+    },
+    "tools": [
+      {
+        "name": "code_interpreter",
+        "durationMs": 209,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0014,
+      "outputUsd": 0.0024,
+      "totalUsd": 0.0038
+    }
+  },
+  {
+    "id": "req_0123W31M2A",
+    "conversationId": "conv_008200",
+    "userId": "user_0087",
+    "timestamp": "2026-11-16T22:11:28.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 54
+    },
+    "tokens": {
+      "input": 1265,
+      "cachedInput": 0,
+      "output": 609,
+      "reasoning": 0,
+      "total": 1874
+    },
+    "performance": {
+      "ttftMs": 716,
+      "generationMs": 4908,
+      "totalLatencyMs": 5764,
+      "tokensPerSecond": 124.1
+    },
+    "tools": [
+      {
+        "name": "web_fetch",
+        "durationMs": 166,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0013,
+      "outputUsd": 0.003,
+      "totalUsd": 0.0043
+    }
+  },
+  {
+    "id": "req_01E45FK9F4",
+    "conversationId": "conv_008067",
+    "userId": "user_0042",
+    "timestamp": "2026-11-17T14:15:39.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1006,
+      "cachedInput": 0,
+      "output": 134,
+      "reasoning": 287,
+      "total": 1427
+    },
+    "performance": {
+      "ttftMs": 1463,
+      "generationMs": 1311,
+      "totalLatencyMs": 2860,
+      "tokensPerSecond": 102.2
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0003,
+      "outputUsd": 0.0008,
+      "totalUsd": 0.0011
+    }
+  },
+  {
+    "id": "req_013K0239VR",
+    "conversationId": "conv_008067",
+    "userId": "user_0042",
+    "timestamp": "2026-11-17T14:17:44.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 125
+    },
+    "tokens": {
+      "input": 1058,
+      "cachedInput": 0,
+      "output": 204,
+      "reasoning": 162,
+      "total": 1424
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 1547,
+      "totalLatencyMs": 2876,
+      "tokensPerSecond": 131.9
+    },
+    "tools": [
+      {
+        "name": "calendar_lookup",
+        "durationMs": 286,
+        "status": "success"
+      },
+      {
+        "name": "calculator",
+        "durationMs": 368,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0003,
+      "outputUsd": 0.0007,
+      "totalUsd": 0.001
+    }
+  },
+  {
+    "id": "req_01YYPBQV3B",
+    "conversationId": "conv_008255",
+    "userId": "user_0512",
+    "timestamp": "2026-11-17T14:57:01.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1170,
+      "cachedInput": 0,
+      "output": 545,
+      "reasoning": 0,
+      "total": 1715
+    },
+    "performance": {
+      "ttftMs": 1362,
+      "generationMs": 3329,
+      "totalLatencyMs": 4757,
+      "tokensPerSecond": 163.7
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0012,
+      "outputUsd": 0.0027,
+      "totalUsd": 0.0039
+    }
+  },
+  {
+    "id": "req_01HCV6CR9P",
+    "conversationId": "conv_008255",
+    "userId": "user_0512",
+    "timestamp": "2026-11-17T14:57:25.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 24
+    },
+    "tokens": {
+      "input": 1355,
+      "cachedInput": 1041,
+      "output": 264,
+      "reasoning": 0,
+      "total": 1619
+    },
+    "performance": {
+      "ttftMs": 273,
+      "generationMs": 1330,
+      "totalLatencyMs": 1709,
+      "tokensPerSecond": 198.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0004,
+      "outputUsd": 0.0013,
+      "totalUsd": 0.0017
+    }
+  },
+  {
+    "id": "req_01HAX21YT8",
+    "conversationId": "conv_008255",
+    "userId": "user_0512",
+    "timestamp": "2026-11-17T15:01:08.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 247
+    },
+    "tokens": {
+      "input": 2034,
+      "cachedInput": 1433,
+      "output": 185,
+      "reasoning": 0,
+      "total": 2219
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 1075,
+      "totalLatencyMs": 1384,
+      "tokensPerSecond": 172.1
+    },
+    "tools": [
+      {
+        "name": "calculator",
+        "durationMs": 1109,
+        "status": "success"
+      },
+      {
+        "name": "file_reader",
+        "durationMs": 159,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.7,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "tool_calls"
+    },
+    "cost": {
+      "inputUsd": 0.0007,
+      "outputUsd": 0.0009,
+      "totalUsd": 0.0017
+    }
+  },
+  {
+    "id": "req_012VPV2GKJ",
+    "conversationId": "conv_008255",
+    "userId": "user_0512",
+    "timestamp": "2026-11-17T15:02:44.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 343
+    },
+    "tokens": {
+      "input": 2525,
+      "cachedInput": 1675,
+      "output": 95,
+      "reasoning": 0,
+      "total": 2620
+    },
+    "performance": {
+      "ttftMs": 499,
+      "generationMs": 506,
+      "totalLatencyMs": 1053,
+      "tokensPerSecond": 187.7
+    },
+    "tools": [
+      {
+        "name": "calendar_lookup",
+        "durationMs": 256,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "tool_calls"
+    },
+    "cost": {
+      "inputUsd": 0.001,
+      "outputUsd": 0.0005,
+      "totalUsd": 0.0015
+    }
+  },
+  {
+    "id": "req_01WC76QKSQ",
+    "conversationId": "conv_008255",
+    "userId": "user_0512",
+    "timestamp": "2026-11-17T15:03:44.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 403
+    },
+    "tokens": {
+      "input": 2538,
+      "cachedInput": 1532,
+      "output": 48,
+      "reasoning": 0,
+      "total": 2586
+    },
+    "performance": {
+      "ttftMs": 448,
+      "generationMs": 361,
+      "totalLatencyMs": 876,
+      "tokensPerSecond": 133.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0012,
+      "outputUsd": 0.0002,
+      "totalUsd": 0.0014
+    }
+  },
+  {
+    "id": "req_0113FB55H9",
+    "conversationId": "conv_008255",
+    "userId": "user_0512",
+    "timestamp": "2026-11-17T15:04:11.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 430
+    },
+    "tokens": {
+      "input": 3875,
+      "cachedInput": 2235,
+      "output": 768,
+      "reasoning": 0,
+      "total": 4643
+    },
+    "performance": {
+      "ttftMs": 834,
+      "generationMs": 4829,
+      "totalLatencyMs": 5727,
+      "tokensPerSecond": 159.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0019,
+      "outputUsd": 0.0038,
+      "totalUsd": 0.0057
+    }
+  },
+  {
+    "id": "req_016VBPDSGF",
+    "conversationId": "conv_008024",
+    "userId": "user_0042",
+    "timestamp": "2026-11-17T20:04:02.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1587,
+      "cachedInput": 0,
+      "output": 392,
+      "reasoning": 817,
+      "total": 2796
+    },
+    "performance": {
+      "ttftMs": 2141,
+      "generationMs": 5928,
+      "totalLatencyMs": 8184,
+      "tokensPerSecond": 66.1
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0048,
+      "outputUsd": 0.0181,
+      "totalUsd": 0.0229
+    }
+  },
+  {
+    "id": "req_017B0967BH",
+    "conversationId": "conv_008039",
+    "userId": "user_0512",
+    "timestamp": "2026-11-18T03:48:11.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1669,
+      "cachedInput": 0,
+      "output": 216,
+      "reasoning": 332,
+      "total": 2217
+    },
+    "performance": {
+      "ttftMs": 1596,
+      "generationMs": 1579,
+      "totalLatencyMs": 3291,
+      "tokensPerSecond": 136.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0004,
+      "outputUsd": 0.0011,
+      "totalUsd": 0.0015
+    }
+  },
+  {
+    "id": "req_01ENH16G5J",
+    "conversationId": "conv_008039",
+    "userId": "user_0512",
+    "timestamp": "2026-11-18T03:51:33.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 202
+    },
+    "tokens": {
+      "input": 1212,
+      "cachedInput": 866,
+      "output": 246,
+      "reasoning": 183,
+      "total": 1641
+    },
+    "performance": {
+      "ttftMs": 1178,
+      "generationMs": 1942,
+      "totalLatencyMs": 3151,
+      "tokensPerSecond": 126.7
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0001,
+      "outputUsd": 0.0009,
+      "totalUsd": 0.001
+    }
+  },
+  {
+    "id": "req_01ZN9189NC",
+    "conversationId": "conv_008039",
+    "userId": "user_0512",
+    "timestamp": "2026-11-18T03:54:43.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 392
+    },
+    "tokens": {
+      "input": 1613,
+      "cachedInput": 1067,
+      "output": 983,
+      "reasoning": 1150,
+      "total": 3746
+    },
+    "performance": {
+      "ttftMs": 5084,
+      "generationMs": 5823,
+      "totalLatencyMs": 11020,
+      "tokensPerSecond": 168.8
+    },
+    "tools": [
+      {
+        "name": "calculator",
+        "durationMs": 1257,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0002,
+      "outputUsd": 0.0043,
+      "totalUsd": 0.0044
+    }
+  },
+  {
+    "id": "req_01ES3J9625",
+    "conversationId": "conv_008039",
+    "userId": "user_0512",
+    "timestamp": "2026-11-18T03:58:06.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 595
+    },
+    "tokens": {
+      "input": 2498,
+      "cachedInput": 0,
+      "output": 200,
+      "reasoning": 264,
+      "total": 2962
+    },
+    "performance": {
+      "ttftMs": 1186,
+      "generationMs": 1581,
+      "totalLatencyMs": 2794,
+      "tokensPerSecond": 126.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0006,
+      "outputUsd": 0.0009,
+      "totalUsd": 0.0016
+    }
+  },
+  {
+    "id": "req_01VEGHGKMF",
+    "conversationId": "conv_008039",
+    "userId": "user_0512",
+    "timestamp": "2026-11-18T04:01:16.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 785
+    },
+    "tokens": {
+      "input": 3529,
+      "cachedInput": 2067,
+      "output": 140,
+      "reasoning": 257,
+      "total": 3926
+    },
+    "performance": {
+      "ttftMs": 1692,
+      "generationMs": 1301,
+      "totalLatencyMs": 3082,
+      "tokensPerSecond": 107.6
+    },
+    "tools": [
+      {
+        "name": "code_interpreter",
+        "durationMs": 409,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0004,
+      "outputUsd": 0.0008,
+      "totalUsd": 0.0012
+    }
+  },
+  {
+    "id": "req_01B7CHVQ3F",
+    "conversationId": "conv_008392",
+    "userId": "user_0042",
+    "timestamp": "2026-11-18T13:42:26.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1604,
+      "cachedInput": 0,
+      "output": 877,
+      "reasoning": 0,
+      "total": 2481
+    },
+    "performance": {
+      "ttftMs": 828,
+      "generationMs": 5030,
+      "totalLatencyMs": 5960,
+      "tokensPerSecond": 174.4
+    },
+    "tools": [
+      {
+        "name": "search",
+        "durationMs": 167,
+        "status": "success"
+      },
+      {
+        "name": "calendar_lookup",
+        "durationMs": 322,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0016,
+      "outputUsd": 0.0044,
+      "totalUsd": 0.006
+    }
+  },
+  {
+    "id": "req_01TRNYK80V",
+    "conversationId": "conv_008392",
+    "userId": "user_0042",
+    "timestamp": "2026-11-18T13:44:22.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 116
+    },
+    "tokens": {
+      "input": 1568,
+      "cachedInput": 950,
+      "output": 79,
+      "reasoning": 0,
+      "total": 1647
+    },
+    "performance": {
+      "ttftMs": 770,
+      "generationMs": 549,
+      "totalLatencyMs": 1382,
+      "tokensPerSecond": 143.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0007,
+      "outputUsd": 0.0004,
+      "totalUsd": 0.0011
+    }
+  },
+  {
+    "id": "req_01H595YN9W",
+    "conversationId": "conv_008392",
+    "userId": "user_0042",
+    "timestamp": "2026-11-18T13:47:28.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 302
+    },
+    "tokens": {
+      "input": 2505,
+      "cachedInput": 1910,
+      "output": 227,
+      "reasoning": 0,
+      "total": 2732
+    },
+    "performance": {
+      "ttftMs": 361,
+      "generationMs": 1572,
+      "totalLatencyMs": 1994,
+      "tokensPerSecond": 144.4
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0008,
+      "outputUsd": 0.0011,
+      "totalUsd": 0.0019
+    }
+  },
+  {
+    "id": "req_01KWMMWMKY",
+    "conversationId": "conv_008392",
+    "userId": "user_0042",
+    "timestamp": "2026-11-18T13:49:19.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 413
+    },
+    "tokens": {
+      "input": 2692,
+      "cachedInput": 2139,
+      "output": 319,
+      "reasoning": 0,
+      "total": 3011
+    },
+    "performance": {
+      "ttftMs": 130,
+      "generationMs": 1838,
+      "totalLatencyMs": 1986,
+      "tokensPerSecond": 173.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0008,
+      "outputUsd": 0.0016,
+      "totalUsd": 0.0024
+    }
+  },
+  {
+    "id": "req_01CFXDYCGD",
+    "conversationId": "conv_008506",
+    "userId": "user_0142",
+    "timestamp": "2026-11-18T13:50:28.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 720,
+      "cachedInput": 0,
+      "output": 216,
+      "reasoning": 174,
+      "total": 1110
+    },
+    "performance": {
+      "ttftMs": 1335,
+      "generationMs": 3269,
+      "totalLatencyMs": 4623,
+      "tokensPerSecond": 66.1
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0009,
+      "outputUsd": 0.0039,
+      "totalUsd": 0.0048
+    }
+  },
+  {
+    "id": "req_01E8TJ8NH7",
+    "conversationId": "conv_008506",
+    "userId": "user_0142",
+    "timestamp": "2026-11-18T13:51:05.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 37
+    },
+    "tokens": {
+      "input": 2028,
+      "cachedInput": 0,
+      "output": 1097,
+      "reasoning": 1987,
+      "total": 5112
+    },
+    "performance": {
+      "ttftMs": 4476,
+      "generationMs": 14816,
+      "totalLatencyMs": 19347,
+      "tokensPerSecond": 74.0
+    },
+    "tools": [
+      {
+        "name": "web_fetch",
+        "durationMs": 41,
+        "status": "success"
+      },
+      {
+        "name": "search",
+        "durationMs": 281,
+        "status": "success"
+      },
+      {
+        "name": "code_interpreter",
+        "durationMs": 309,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0025,
+      "outputUsd": 0.0308,
+      "totalUsd": 0.0334
+    }
+  },
+  {
+    "id": "req_018VD31QXN",
+    "conversationId": "conv_008506",
+    "userId": "user_0142",
+    "timestamp": "2026-11-18T13:54:14.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 226
+    },
+    "tokens": {
+      "input": 2239,
+      "cachedInput": 1679,
+      "output": 178,
+      "reasoning": 165,
+      "total": 2582
+    },
+    "performance": {
+      "ttftMs": 1069,
+      "generationMs": 2133,
+      "totalLatencyMs": 3340,
+      "tokensPerSecond": 83.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0009,
+      "outputUsd": 0.0034,
+      "totalUsd": 0.0043
+    }
+  },
+  {
+    "id": "req_01FYX1WMBQ",
+    "conversationId": "conv_008445",
+    "userId": "user_0203",
+    "timestamp": "2026-11-18T19:31:48.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 834,
+      "cachedInput": 0,
+      "output": 240,
+      "reasoning": 384,
+      "total": 1458
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 3260,
+      "totalLatencyMs": 4370,
+      "tokensPerSecond": 73.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0025,
+      "outputUsd": 0.0094,
+      "totalUsd": 0.0119
+    }
+  },
+  {
+    "id": "req_019PGMDADT",
+    "conversationId": "conv_008445",
+    "userId": "user_0203",
+    "timestamp": "2026-11-18T19:34:50.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 182
+    },
+    "tokens": {
+      "input": 679,
+      "cachedInput": 461,
+      "output": 100,
+      "reasoning": 189,
+      "total": 968
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 1129,
+      "totalLatencyMs": 2899,
+      "tokensPerSecond": 88.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0008,
+      "outputUsd": 0.0043,
+      "totalUsd": 0.0051
+    }
+  },
+  {
+    "id": "req_01AGGA0TMQ",
+    "conversationId": "conv_008445",
+    "userId": "user_0203",
+    "timestamp": "2026-11-18T19:35:52.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 244
+    },
+    "tokens": {
+      "input": 2026,
+      "cachedInput": 1533,
+      "output": 333,
+      "reasoning": 418,
+      "total": 2777
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 3337,
+      "totalLatencyMs": 6155,
+      "tokensPerSecond": 99.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0019,
+      "outputUsd": 0.0113,
+      "totalUsd": 0.0132
+    }
+  },
+  {
+    "id": "req_01M53QSM38",
+    "conversationId": "conv_008445",
+    "userId": "user_0203",
+    "timestamp": "2026-11-18T19:36:41.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 293
+    },
+    "tokens": {
+      "input": 3668,
+      "cachedInput": 0,
+      "output": 181,
+      "reasoning": 315,
+      "total": 4164
+    },
+    "performance": {
+      "ttftMs": 1806,
+      "generationMs": 1969,
+      "totalLatencyMs": 3814,
+      "tokensPerSecond": 91.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.011,
+      "outputUsd": 0.0074,
+      "totalUsd": 0.0184
+    }
+  },
+  {
+    "id": "req_0110DAX3A4",
+    "conversationId": "conv_008445",
+    "userId": "user_0203",
+    "timestamp": "2026-11-18T19:37:27.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 339
+    },
+    "tokens": {
+      "input": 3579,
+      "cachedInput": 2774,
+      "output": 156,
+      "reasoning": 195,
+      "total": 3930
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 1780,
+      "totalLatencyMs": 3280,
+      "tokensPerSecond": 87.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0032,
+      "outputUsd": 0.0053,
+      "totalUsd": 0.0085
+    }
+  },
+  {
+    "id": "req_01Y7KS0WSD",
+    "conversationId": "conv_008445",
+    "userId": "user_0203",
+    "timestamp": "2026-11-18T19:39:47.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 479
+    },
+    "tokens": {
+      "input": 3497,
+      "cachedInput": 2064,
+      "output": 392,
+      "reasoning": 0,
+      "total": 3889
+    },
+    "performance": {
+      "ttftMs": 928,
+      "generationMs": 4407,
+      "totalLatencyMs": 5379,
+      "tokensPerSecond": 88.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0049,
+      "outputUsd": 0.0059,
+      "totalUsd": 0.0108
+    }
+  },
+  {
+    "id": "req_01GEZCJAFZ",
+    "conversationId": "conv_008445",
+    "userId": "user_0203",
+    "timestamp": "2026-11-18T19:41:45.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 7,
+      "ageSeconds": 597
+    },
+    "tokens": {
+      "input": 4846,
+      "cachedInput": 3303,
+      "output": 61,
+      "reasoning": 109,
+      "total": 5016
+    },
+    "performance": {
+      "ttftMs": 1253,
+      "generationMs": 743,
+      "totalLatencyMs": 2098,
+      "tokensPerSecond": 82.1
+    },
+    "tools": [
+      {
+        "name": "calendar_lookup",
+        "durationMs": 189,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0056,
+      "outputUsd": 0.0026,
+      "totalUsd": 0.0082
+    }
+  },
+  {
+    "id": "req_018V0QGBB2",
+    "conversationId": "conv_008445",
+    "userId": "user_0203",
+    "timestamp": "2026-11-18T19:43:58.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 8,
+      "ageSeconds": 730
+    },
+    "tokens": {
+      "input": 4981,
+      "cachedInput": 3779,
+      "output": 386,
+      "reasoning": 313,
+      "total": 5680
+    },
+    "performance": {
+      "ttftMs": 1363,
+      "generationMs": 5870,
+      "totalLatencyMs": 7291,
+      "tokensPerSecond": 65.8
+    },
+    "tools": [
+      {
+        "name": "search",
+        "durationMs": 125,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0047,
+      "outputUsd": 0.0105,
+      "totalUsd": 0.0152
+    }
+  },
+  {
+    "id": "req_01TK138TKV",
+    "conversationId": "conv_008302",
+    "userId": "user_0459",
+    "timestamp": "2026-11-19T02:19:16.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 295,
+      "cachedInput": 0,
+      "output": 571,
+      "reasoning": 318,
+      "total": 1184
+    },
+    "performance": {
+      "ttftMs": 2130,
+      "generationMs": 6484,
+      "totalLatencyMs": 8754,
+      "tokensPerSecond": 88.1
+    },
+    "tools": [
+      {
+        "name": "calendar_lookup",
+        "durationMs": 178,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0009,
+      "outputUsd": 0.0133,
+      "totalUsd": 0.0142
+    }
+  },
+  {
+    "id": "req_01DSGKTM3B",
+    "conversationId": "conv_008302",
+    "userId": "user_0459",
+    "timestamp": "2026-11-19T02:20:14.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 58
+    },
+    "tokens": {
+      "input": 1497,
+      "cachedInput": 1149,
+      "output": 253,
+      "reasoning": 253,
+      "total": 2003
+    },
+    "performance": {
+      "ttftMs": 1332,
+      "generationMs": 2576,
+      "totalLatencyMs": 3934,
+      "tokensPerSecond": 98.2
+    },
+    "tools": [
+      {
+        "name": "code_interpreter",
+        "durationMs": 93,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0014,
+      "outputUsd": 0.0076,
+      "totalUsd": 0.009
+    }
+  },
+  {
+    "id": "req_01DX0J7YKT",
+    "conversationId": "conv_008302",
+    "userId": "user_0459",
+    "timestamp": "2026-11-19T02:24:05.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 289
+    },
+    "tokens": {
+      "input": 1918,
+      "cachedInput": 0,
+      "output": 198,
+      "reasoning": 275,
+      "total": 2391
+    },
+    "performance": {
+      "ttftMs": 2284,
+      "generationMs": 2340,
+      "totalLatencyMs": 4699,
+      "tokensPerSecond": 84.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0058,
+      "outputUsd": 0.0071,
+      "totalUsd": 0.0128
+    }
+  },
+  {
+    "id": "req_01CZJV7G5K",
+    "conversationId": "conv_008428",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T04:20:20.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1559,
+      "cachedInput": 0,
+      "output": 876,
+      "reasoning": 367,
+      "total": 2802
+    },
+    "performance": {
+      "ttftMs": 2030,
+      "generationMs": 13668,
+      "totalLatencyMs": 15824,
+      "tokensPerSecond": 64.1
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0019,
+      "outputUsd": 0.0124,
+      "totalUsd": 0.0144
+    }
+  },
+  {
+    "id": "req_019P1C1JF6",
+    "conversationId": "conv_008428",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T04:21:02.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 42
+    },
+    "tokens": {
+      "input": 1773,
+      "cachedInput": 1075,
+      "output": 180,
+      "reasoning": 281,
+      "total": 2234
+    },
+    "performance": {
+      "ttftMs": 1845,
+      "generationMs": 2501,
+      "totalLatencyMs": 4425,
+      "tokensPerSecond": 72.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.001,
+      "outputUsd": 0.0046,
+      "totalUsd": 0.0056
+    }
+  },
+  {
+    "id": "req_01KTGF6BVH",
+    "conversationId": "conv_008428",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T04:21:28.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 68
+    },
+    "tokens": {
+      "input": 2248,
+      "cachedInput": 1692,
+      "output": 209,
+      "reasoning": 369,
+      "total": 2826
+    },
+    "performance": {
+      "ttftMs": 2282,
+      "generationMs": 2626,
+      "totalLatencyMs": 4927,
+      "tokensPerSecond": 79.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0009,
+      "outputUsd": 0.0058,
+      "totalUsd": 0.0067
+    }
+  },
+  {
+    "id": "req_01P7B2R7NV",
+    "conversationId": "conv_008428",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T04:23:40.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 200
+    },
+    "tokens": {
+      "input": 2948,
+      "cachedInput": 1876,
+      "output": 231,
+      "reasoning": 0,
+      "total": 3179
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 3963,
+      "totalLatencyMs": 4669,
+      "tokensPerSecond": 58.3
+    },
+    "tools": [
+      {
+        "name": "code_interpreter",
+        "durationMs": 193,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "tool_calls"
+    },
+    "cost": {
+      "inputUsd": 0.0016,
+      "outputUsd": 0.0023,
+      "totalUsd": 0.0039
+    }
+  },
+  {
+    "id": "req_01B38QFSVT",
+    "conversationId": "conv_008428",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T04:27:01.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 401
+    },
+    "tokens": {
+      "input": 3628,
+      "cachedInput": 2961,
+      "output": 279,
+      "reasoning": 321,
+      "total": 4228
+    },
+    "performance": {
+      "ttftMs": 1446,
+      "generationMs": 3130,
+      "totalLatencyMs": 4591,
+      "tokensPerSecond": 89.1
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0012,
+      "outputUsd": 0.006,
+      "totalUsd": 0.0072
+    }
+  },
+  {
+    "id": "req_019MMD76E0",
+    "conversationId": "conv_008428",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T04:30:23.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 603
+    },
+    "tokens": {
+      "input": 3740,
+      "cachedInput": 3079,
+      "output": 470,
+      "reasoning": 0,
+      "total": 4210
+    },
+    "performance": {
+      "ttftMs": 718,
+      "generationMs": 7996,
+      "totalLatencyMs": 8840,
+      "tokensPerSecond": 58.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0012,
+      "outputUsd": 0.0047,
+      "totalUsd": 0.0059
+    }
+  },
+  {
+    "id": "req_0181971B65",
+    "conversationId": "conv_008428",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T04:32:24.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 7,
+      "ageSeconds": 724
+    },
+    "tokens": {
+      "input": 3845,
+      "cachedInput": 0,
+      "output": 0,
+      "reasoning": 0,
+      "total": 3845
+    },
+    "performance": {
+      "ttftMs": 30000,
+      "generationMs": 0,
+      "totalLatencyMs": 30027,
+      "tokensPerSecond": 0.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "timeout",
+      "finishReason": "error",
+      "errorCode": "request_timeout"
+    },
+    "cost": {
+      "inputUsd": 0.0,
+      "outputUsd": 0.0,
+      "totalUsd": 0.0
+    }
+  },
+  {
+    "id": "req_01K01G1HSQ",
+    "conversationId": "conv_008428",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T04:35:01.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 8,
+      "ageSeconds": 881
+    },
+    "tokens": {
+      "input": 5127,
+      "cachedInput": 4248,
+      "output": 145,
+      "reasoning": 130,
+      "total": 5402
+    },
+    "performance": {
+      "ttftMs": 1198,
+      "generationMs": 2494,
+      "totalLatencyMs": 3781,
+      "tokensPerSecond": 58.1
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0016,
+      "outputUsd": 0.0027,
+      "totalUsd": 0.0044
+    }
+  },
+  {
+    "id": "req_01YPQGN34D",
+    "conversationId": "conv_008076",
+    "userId": "user_0087",
+    "timestamp": "2026-11-19T05:57:25.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1277,
+      "cachedInput": 0,
+      "output": 216,
+      "reasoning": 0,
+      "total": 1493
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 1388,
+      "totalLatencyMs": 1994,
+      "tokensPerSecond": 155.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0013,
+      "outputUsd": 0.0011,
+      "totalUsd": 0.0024
+    }
+  },
+  {
+    "id": "req_01QGSTN55C",
+    "conversationId": "conv_008076",
+    "userId": "user_0087",
+    "timestamp": "2026-11-19T06:00:07.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 162
+    },
+    "tokens": {
+      "input": 1437,
+      "cachedInput": 0,
+      "output": 187,
+      "reasoning": 0,
+      "total": 1624
+    },
+    "performance": {
+      "ttftMs": 578,
+      "generationMs": 962,
+      "totalLatencyMs": 1625,
+      "tokensPerSecond": 194.4
+    },
+    "tools": [
+      {
+        "name": "file_reader",
+        "durationMs": 61,
+        "status": "success"
+      },
+      {
+        "name": "database_query",
+        "durationMs": 5000,
+        "status": "timeout"
+      }
+    ],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0014,
+      "outputUsd": 0.0009,
+      "totalUsd": 0.0024
+    }
+  },
+  {
+    "id": "req_01EB57EBYP",
+    "conversationId": "conv_008076",
+    "userId": "user_0087",
+    "timestamp": "2026-11-19T06:01:22.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 237
+    },
+    "tokens": {
+      "input": 2026,
+      "cachedInput": 1396,
+      "output": 331,
+      "reasoning": 0,
+      "total": 2357
+    },
+    "performance": {
+      "ttftMs": 382,
+      "generationMs": 1665,
+      "totalLatencyMs": 2140,
+      "tokensPerSecond": 198.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0008,
+      "outputUsd": 0.0017,
+      "totalUsd": 0.0024
+    }
+  },
+  {
+    "id": "req_014EZP46T1",
+    "conversationId": "conv_008076",
+    "userId": "user_0087",
+    "timestamp": "2026-11-19T06:02:12.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 287
+    },
+    "tokens": {
+      "input": 2784,
+      "cachedInput": 1733,
+      "output": 551,
+      "reasoning": 0,
+      "total": 3335
+    },
+    "performance": {
+      "ttftMs": 417,
+      "generationMs": 4221,
+      "totalLatencyMs": 4701,
+      "tokensPerSecond": 130.5
+    },
+    "tools": [
+      {
+        "name": "web_fetch",
+        "durationMs": 227,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "tool_calls"
+    },
+    "cost": {
+      "inputUsd": 0.0012,
+      "outputUsd": 0.0028,
+      "totalUsd": 0.004
+    }
+  },
+  {
+    "id": "req_01XQPWE53T",
+    "conversationId": "conv_008076",
+    "userId": "user_0087",
+    "timestamp": "2026-11-19T06:02:48.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 323
+    },
+    "tokens": {
+      "input": 3005,
+      "cachedInput": 1983,
+      "output": 215,
+      "reasoning": 0,
+      "total": 3220
+    },
+    "performance": {
+      "ttftMs": 999,
+      "generationMs": 1495,
+      "totalLatencyMs": 2601,
+      "tokensPerSecond": 143.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0012,
+      "outputUsd": 0.0011,
+      "totalUsd": 0.0023
+    }
+  },
+  {
+    "id": "req_017HA7D3Z4",
+    "conversationId": "conv_008076",
+    "userId": "user_0087",
+    "timestamp": "2026-11-19T06:04:50.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 445
+    },
+    "tokens": {
+      "input": 3571,
+      "cachedInput": 2101,
+      "output": 208,
+      "reasoning": 0,
+      "total": 3779
+    },
+    "performance": {
+      "ttftMs": 534,
+      "generationMs": 1692,
+      "totalLatencyMs": 2274,
+      "tokensPerSecond": 122.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0017,
+      "outputUsd": 0.001,
+      "totalUsd": 0.0027
+    }
+  },
+  {
+    "id": "req_01J5MP4S4Q",
+    "conversationId": "conv_008272",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T09:27:42.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1013,
+      "cachedInput": 0,
+      "output": 657,
+      "reasoning": 0,
+      "total": 1670
+    },
+    "performance": {
+      "ttftMs": 593,
+      "generationMs": 8158,
+      "totalLatencyMs": 8844,
+      "tokensPerSecond": 80.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.003,
+      "outputUsd": 0.0099,
+      "totalUsd": 0.0129
+    }
+  },
+  {
+    "id": "req_01SBZA85CN",
+    "conversationId": "conv_008272",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T09:30:37.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 175
+    },
+    "tokens": {
+      "input": 1653,
+      "cachedInput": 1182,
+      "output": 448,
+      "reasoning": 605,
+      "total": 2706
+    },
+    "performance": {
+      "ttftMs": 3111,
+      "generationMs": 6634,
+      "totalLatencyMs": 9791,
+      "tokensPerSecond": 67.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0018,
+      "outputUsd": 0.0158,
+      "totalUsd": 0.0176
+    }
+  },
+  {
+    "id": "req_01WHSQ93NQ",
+    "conversationId": "conv_008272",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T09:31:49.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 247
+    },
+    "tokens": {
+      "input": 2480,
+      "cachedInput": 1502,
+      "output": 275,
+      "reasoning": 561,
+      "total": 3316
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 4080,
+      "totalLatencyMs": 6745,
+      "tokensPerSecond": 67.4
+    },
+    "tools": [
+      {
+        "name": "file_reader",
+        "durationMs": 368,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 1.0,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0034,
+      "outputUsd": 0.0125,
+      "totalUsd": 0.0159
+    }
+  },
+  {
+    "id": "req_012Q3CMG87",
+    "conversationId": "conv_008272",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T09:32:44.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 302
+    },
+    "tokens": {
+      "input": 2204,
+      "cachedInput": 1247,
+      "output": 767,
+      "reasoning": 1390,
+      "total": 4361
+    },
+    "performance": {
+      "ttftMs": 6275,
+      "generationMs": 11126,
+      "totalLatencyMs": 17515,
+      "tokensPerSecond": 68.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0032,
+      "outputUsd": 0.0324,
+      "totalUsd": 0.0356
+    }
+  },
+  {
+    "id": "req_014WDBMFYR",
+    "conversationId": "conv_008272",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T09:36:29.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 527
+    },
+    "tokens": {
+      "input": 3152,
+      "cachedInput": 2164,
+      "output": 832,
+      "reasoning": 544,
+      "total": 4528
+    },
+    "performance": {
+      "ttftMs": 2823,
+      "generationMs": 11293,
+      "totalLatencyMs": 14164,
+      "tokensPerSecond": 73.7
+    },
+    "tools": [
+      {
+        "name": "calculator",
+        "durationMs": 601,
+        "status": "success"
+      },
+      {
+        "name": "web_fetch",
+        "durationMs": 141,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0036,
+      "outputUsd": 0.0206,
+      "totalUsd": 0.0243
+    }
+  },
+  {
+    "id": "req_019AVR7A7K",
+    "conversationId": "conv_008272",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T09:40:37.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 775
+    },
+    "tokens": {
+      "input": 4076,
+      "cachedInput": 2728,
+      "output": 387,
+      "reasoning": 483,
+      "total": 4946
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 5779,
+      "totalLatencyMs": 7897,
+      "tokensPerSecond": 67.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0049,
+      "outputUsd": 0.0131,
+      "totalUsd": 0.0179
+    }
+  },
+  {
+    "id": "req_01TBKRJ3WW",
+    "conversationId": "conv_008128",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T17:09:44.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 677,
+      "cachedInput": 0,
+      "output": 571,
+      "reasoning": 663,
+      "total": 1911
+    },
+    "performance": {
+      "ttftMs": 2785,
+      "generationMs": 6124,
+      "totalLatencyMs": 9012,
+      "tokensPerSecond": 93.2
+    },
+    "tools": [
+      {
+        "name": "code_interpreter",
+        "durationMs": 275,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.002,
+      "outputUsd": 0.0185,
+      "totalUsd": 0.0205
+    }
+  },
+  {
+    "id": "req_010DTQ0Y2E",
+    "conversationId": "conv_008128",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T17:11:41.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 117
+    },
+    "tokens": {
+      "input": 1466,
+      "cachedInput": 900,
+      "output": 334,
+      "reasoning": 284,
+      "total": 2084
+    },
+    "performance": {
+      "ttftMs": 1433,
+      "generationMs": 3879,
+      "totalLatencyMs": 5333,
+      "tokensPerSecond": 86.1
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.002,
+      "outputUsd": 0.0093,
+      "totalUsd": 0.0112
+    }
+  },
+  {
+    "id": "req_01H11S4V03",
+    "conversationId": "conv_008128",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T17:15:35.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 351
+    },
+    "tokens": {
+      "input": 2321,
+      "cachedInput": 1880,
+      "output": 82,
+      "reasoning": 114,
+      "total": 2517
+    },
+    "performance": {
+      "ttftMs": 3588,
+      "generationMs": 988,
+      "totalLatencyMs": 4646,
+      "tokensPerSecond": 83.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0019,
+      "outputUsd": 0.0029,
+      "totalUsd": 0.0048
+    }
+  },
+  {
+    "id": "req_01TWC93WYS",
+    "conversationId": "conv_008128",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T17:16:04.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 380
+    },
+    "tokens": {
+      "input": 2775,
+      "cachedInput": 2320,
+      "output": 71,
+      "reasoning": 133,
+      "total": 2979
+    },
+    "performance": {
+      "ttftMs": 760,
+      "generationMs": 719,
+      "totalLatencyMs": 1526,
+      "tokensPerSecond": 98.7
+    },
+    "tools": [
+      {
+        "name": "web_fetch",
+        "durationMs": 289,
+        "status": "error"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0021,
+      "outputUsd": 0.0031,
+      "totalUsd": 0.0051
+    }
+  },
+  {
+    "id": "req_01KZDFSPBN",
+    "conversationId": "conv_008128",
+    "userId": "user_0678",
+    "timestamp": "2026-11-19T17:16:39.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 415
+    },
+    "tokens": {
+      "input": 3876,
+      "cachedInput": 2511,
+      "output": 297,
+      "reasoning": 0,
+      "total": 4173
+    },
+    "performance": {
+      "ttftMs": 1011,
+      "generationMs": 4053,
+      "totalLatencyMs": 5146,
+      "tokensPerSecond": 73.3
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0048,
+      "outputUsd": 0.0045,
+      "totalUsd": 0.0093
+    }
+  },
+  {
+    "id": "req_01QXMPMZXC",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:39:50.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 981,
+      "cachedInput": 0,
+      "output": 553,
+      "reasoning": 0,
+      "total": 1534
+    },
+    "performance": {
+      "ttftMs": 582,
+      "generationMs": 8672,
+      "totalLatencyMs": 9284,
+      "tokensPerSecond": 63.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0012,
+      "outputUsd": 0.0055,
+      "totalUsd": 0.0068
+    }
+  },
+  {
+    "id": "req_010ZDZF3A5",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:43:22.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 212
+    },
+    "tokens": {
+      "input": 1699,
+      "cachedInput": 948,
+      "output": 295,
+      "reasoning": 0,
+      "total": 1994
+    },
+    "performance": {
+      "ttftMs": 326,
+      "generationMs": 3486,
+      "totalLatencyMs": 3864,
+      "tokensPerSecond": 84.6
+    },
+    "tools": [
+      {
+        "name": "file_reader",
+        "durationMs": 915,
+        "status": "success"
+      },
+      {
+        "name": "calendar_lookup",
+        "durationMs": 626,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0011,
+      "outputUsd": 0.0029,
+      "totalUsd": 0.004
+    }
+  },
+  {
+    "id": "req_01MDBWXAZS",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:45:20.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 330
+    },
+    "tokens": {
+      "input": 1927,
+      "cachedInput": 1563,
+      "output": 276,
+      "reasoning": 522,
+      "total": 2725
+    },
+    "performance": {
+      "ttftMs": 2593,
+      "generationMs": 3288,
+      "totalLatencyMs": 6006,
+      "tokensPerSecond": 83.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0007,
+      "outputUsd": 0.008,
+      "totalUsd": 0.0086
+    }
+  },
+  {
+    "id": "req_018Z6N3J9W",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:45:36.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 346
+    },
+    "tokens": {
+      "input": 3081,
+      "cachedInput": 2042,
+      "output": 617,
+      "reasoning": 1035,
+      "total": 4733
+    },
+    "performance": {
+      "ttftMs": 4212,
+      "generationMs": 6737,
+      "totalLatencyMs": 11010,
+      "tokensPerSecond": 91.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0016,
+      "outputUsd": 0.0165,
+      "totalUsd": 0.0181
+    }
+  },
+  {
+    "id": "req_01A7HCMP9P",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:49:35.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 585
+    },
+    "tokens": {
+      "input": 3191,
+      "cachedInput": 0,
+      "output": 267,
+      "reasoning": 581,
+      "total": 4039
+    },
+    "performance": {
+      "ttftMs": 3491,
+      "generationMs": 3219,
+      "totalLatencyMs": 6761,
+      "tokensPerSecond": 82.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.004,
+      "outputUsd": 0.0085,
+      "totalUsd": 0.0125
+    }
+  },
+  {
+    "id": "req_012RM3M27B",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:50:42.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 652
+    },
+    "tokens": {
+      "input": 3727,
+      "cachedInput": 0,
+      "output": 30,
+      "reasoning": 0,
+      "total": 3757
+    },
+    "performance": {
+      "ttftMs": 1425,
+      "generationMs": 350,
+      "totalLatencyMs": 1790,
+      "tokensPerSecond": 85.7
+    },
+    "tools": [
+      {
+        "name": "calendar_lookup",
+        "durationMs": 523,
+        "status": "success"
+      },
+      {
+        "name": "calculator",
+        "durationMs": 218,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "error",
+      "finishReason": "content_filter",
+      "errorCode": "content_policy_violation"
+    },
+    "cost": {
+      "inputUsd": 0.0047,
+      "outputUsd": 0.0003,
+      "totalUsd": 0.005
+    }
+  },
+  {
+    "id": "req_01RXZN5XY9",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:54:00.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 7,
+      "ageSeconds": 850
+    },
+    "tokens": {
+      "input": 4161,
+      "cachedInput": 0,
+      "output": 260,
+      "reasoning": 417,
+      "total": 4838
+    },
+    "performance": {
+      "ttftMs": 1570,
+      "generationMs": 3341,
+      "totalLatencyMs": 5022,
+      "tokensPerSecond": 77.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0052,
+      "outputUsd": 0.0068,
+      "totalUsd": 0.012
+    }
+  },
+  {
+    "id": "req_01Z0J8FTFT",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:56:23.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 8,
+      "ageSeconds": 993
+    },
+    "tokens": {
+      "input": 4960,
+      "cachedInput": 3541,
+      "output": 497,
+      "reasoning": 0,
+      "total": 5457
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 5825,
+      "totalLatencyMs": 7004,
+      "tokensPerSecond": 85.3
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0022,
+      "outputUsd": 0.005,
+      "totalUsd": 0.0072
+    }
+  },
+  {
+    "id": "req_01JGDHBPTM",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T17:58:33.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 9,
+      "ageSeconds": 1123
+    },
+    "tokens": {
+      "input": 4939,
+      "cachedInput": 0,
+      "output": 284,
+      "reasoning": 251,
+      "total": 5474
+    },
+    "performance": {
+      "ttftMs": 870,
+      "generationMs": 3847,
+      "totalLatencyMs": 4849,
+      "tokensPerSecond": 73.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0062,
+      "outputUsd": 0.0053,
+      "totalUsd": 0.0115
+    }
+  },
+  {
+    "id": "req_01XFYKK044",
+    "conversationId": "conv_008165",
+    "userId": "user_0512",
+    "timestamp": "2026-11-19T18:01:01.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "westus3"
+    },
+    "conversation": {
+      "turn": 10,
+      "ageSeconds": 1271
+    },
+    "tokens": {
+      "input": 5771,
+      "cachedInput": 0,
+      "output": 538,
+      "reasoning": 1150,
+      "total": 7459
+    },
+    "performance": {
+      "ttftMs": 5943,
+      "generationMs": 5972,
+      "totalLatencyMs": 11932,
+      "tokensPerSecond": 90.1
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0072,
+      "outputUsd": 0.0169,
+      "totalUsd": 0.0241
+    }
+  },
+  {
+    "id": "req_01M3Z3V5H4",
+    "conversationId": "conv_008253",
+    "userId": "user_0142",
+    "timestamp": "2026-11-19T22:39:44.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-haiku-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 757,
+      "cachedInput": 0,
+      "output": 0,
+      "reasoning": 0,
+      "total": 757
+    },
+    "performance": {
+      "ttftMs": 304,
+      "generationMs": 0,
+      "totalLatencyMs": 322,
+      "tokensPerSecond": 0.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "error",
+      "finishReason": "error",
+      "errorCode": "upstream_5xx"
+    },
+    "cost": {
+      "inputUsd": 0.0,
+      "outputUsd": 0.0,
+      "totalUsd": 0.0
+    }
+  },
+  {
+    "id": "req_01R463YR27",
+    "conversationId": "conv_008325",
+    "userId": "user_0087",
+    "timestamp": "2026-11-20T17:40:36.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-opus-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1282,
+      "cachedInput": 0,
+      "output": 84,
+      "reasoning": 180,
+      "total": 1546
+    },
+    "performance": {
+      "ttftMs": 1273,
+      "generationMs": 1389,
+      "totalLatencyMs": 2709,
+      "tokensPerSecond": 60.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0064,
+      "outputUsd": 0.0066,
+      "totalUsd": 0.013
+    }
+  },
+  {
+    "id": "req_01YZABE5HR",
+    "conversationId": "conv_008325",
+    "userId": "user_0087",
+    "timestamp": "2026-11-20T17:42:54.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-opus-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 138
+    },
+    "tokens": {
+      "input": 1734,
+      "cachedInput": 1184,
+      "output": 440,
+      "reasoning": 316,
+      "total": 2490
+    },
+    "performance": {
+      "ttftMs": 1068,
+      "generationMs": 7314,
+      "totalLatencyMs": 8414,
+      "tokensPerSecond": 60.2
+    },
+    "tools": [
+      {
+        "name": "database_query",
+        "durationMs": 197,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0033,
+      "outputUsd": 0.0189,
+      "totalUsd": 0.0222
+    }
+  },
+  {
+    "id": "req_01RRGGKQZF",
+    "conversationId": "conv_008465",
+    "userId": "user_0203",
+    "timestamp": "2026-11-21T01:00:08.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1737,
+      "cachedInput": 0,
+      "output": 699,
+      "reasoning": 0,
+      "total": 2436
+    },
+    "performance": {
+      "ttftMs": 347,
+      "generationMs": 7693,
+      "totalLatencyMs": 8119,
+      "tokensPerSecond": 90.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0052,
+      "outputUsd": 0.0105,
+      "totalUsd": 0.0157
+    }
+  },
+  {
+    "id": "req_015ETF2QF7",
+    "conversationId": "conv_008465",
+    "userId": "user_0203",
+    "timestamp": "2026-11-21T01:02:37.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 149
+    },
+    "tokens": {
+      "input": 2175,
+      "cachedInput": 1602,
+      "output": 172,
+      "reasoning": 342,
+      "total": 2689
+    },
+    "performance": {
+      "ttftMs": 1993,
+      "generationMs": 2179,
+      "totalLatencyMs": 4259,
+      "tokensPerSecond": 78.9
+    },
+    "tools": [
+      {
+        "name": "calculator",
+        "durationMs": 718,
+        "status": "success"
+      },
+      {
+        "name": "calendar_lookup",
+        "durationMs": 279,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0022,
+      "outputUsd": 0.0077,
+      "totalUsd": 0.0099
+    }
+  },
+  {
+    "id": "req_01NCED4A0G",
+    "conversationId": "conv_008465",
+    "userId": "user_0203",
+    "timestamp": "2026-11-21T01:05:30.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 322
+    },
+    "tokens": {
+      "input": 2483,
+      "cachedInput": 1974,
+      "output": 63,
+      "reasoning": 0,
+      "total": 2546
+    },
+    "performance": {
+      "ttftMs": 386,
+      "generationMs": 631,
+      "totalLatencyMs": 1101,
+      "tokensPerSecond": 99.8
+    },
+    "tools": [
+      {
+        "name": "file_reader",
+        "durationMs": 442,
+        "status": "success"
+      },
+      {
+        "name": "code_interpreter",
+        "durationMs": 367,
+        "status": "success"
+      },
+      {
+        "name": "search",
+        "durationMs": 126,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0021,
+      "outputUsd": 0.0009,
+      "totalUsd": 0.0031
+    }
+  },
+  {
+    "id": "req_01NR4VBPNA",
+    "conversationId": "conv_008465",
+    "userId": "user_0203",
+    "timestamp": "2026-11-21T01:09:04.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 536
+    },
+    "tokens": {
+      "input": 2814,
+      "cachedInput": 1704,
+      "output": 388,
+      "reasoning": 200,
+      "total": 3402
+    },
+    "performance": {
+      "ttftMs": 1828,
+      "generationMs": 3950,
+      "totalLatencyMs": 5873,
+      "tokensPerSecond": 98.2
+    },
+    "tools": [
+      {
+        "name": "code_interpreter",
+        "durationMs": 249,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0038,
+      "outputUsd": 0.0088,
+      "totalUsd": 0.0127
+    }
+  },
+  {
+    "id": "req_01AG0JYFME",
+    "conversationId": "conv_008465",
+    "userId": "user_0203",
+    "timestamp": "2026-11-21T01:12:40.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 752
+    },
+    "tokens": {
+      "input": 3406,
+      "cachedInput": 2610,
+      "output": 144,
+      "reasoning": 231,
+      "total": 3781
+    },
+    "performance": {
+      "ttftMs": 1495,
+      "generationMs": 1524,
+      "totalLatencyMs": 3148,
+      "tokensPerSecond": 94.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0032,
+      "outputUsd": 0.0056,
+      "totalUsd": 0.0088
+    }
+  },
+  {
+    "id": "req_01VCYQ8T3R",
+    "conversationId": "conv_008340",
+    "userId": "user_0311",
+    "timestamp": "2026-11-21T02:39:49.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1209,
+      "cachedInput": 0,
+      "output": 389,
+      "reasoning": 769,
+      "total": 2367
+    },
+    "performance": {
+      "ttftMs": 3308,
+      "generationMs": 4996,
+      "totalLatencyMs": 8399,
+      "tokensPerSecond": 77.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0036,
+      "outputUsd": 0.0174,
+      "totalUsd": 0.021
+    }
+  },
+  {
+    "id": "req_014ZEHWCA8",
+    "conversationId": "conv_008340",
+    "userId": "user_0311",
+    "timestamp": "2026-11-21T02:42:50.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 181
+    },
+    "tokens": {
+      "input": 1160,
+      "cachedInput": 0,
+      "output": 0,
+      "reasoning": 0,
+      "total": 1160
+    },
+    "performance": {
+      "ttftMs": 352,
+      "generationMs": 0,
+      "totalLatencyMs": 390,
+      "tokensPerSecond": 0.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "error",
+      "finishReason": "error",
+      "errorCode": "upstream_5xx"
+    },
+    "cost": {
+      "inputUsd": 0.0,
+      "outputUsd": 0.0,
+      "totalUsd": 0.0
+    }
+  },
+  {
+    "id": "req_01SXBJN0E0",
+    "conversationId": "conv_008340",
+    "userId": "user_0311",
+    "timestamp": "2026-11-21T02:43:22.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 213
+    },
+    "tokens": {
+      "input": 1835,
+      "cachedInput": 1368,
+      "output": 96,
+      "reasoning": 194,
+      "total": 2125
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 1016,
+      "totalLatencyMs": 2510,
+      "tokensPerSecond": 94.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0018,
+      "outputUsd": 0.0043,
+      "totalUsd": 0.0062
+    }
+  },
+  {
+    "id": "req_01Y5X8YNH7",
+    "conversationId": "conv_008340",
+    "userId": "user_0311",
+    "timestamp": "2026-11-21T02:45:44.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 355
+    },
+    "tokens": {
+      "input": 2908,
+      "cachedInput": 1781,
+      "output": 619,
+      "reasoning": 0,
+      "total": 3527
+    },
+    "performance": {
+      "ttftMs": 1340,
+      "generationMs": 8571,
+      "totalLatencyMs": 9926,
+      "tokensPerSecond": 72.2
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0039,
+      "outputUsd": 0.0093,
+      "totalUsd": 0.0132
+    }
+  },
+  {
+    "id": "req_01ZN0BS25D",
+    "conversationId": "conv_008340",
+    "userId": "user_0311",
+    "timestamp": "2026-11-21T02:49:38.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 589
+    },
+    "tokens": {
+      "input": 3208,
+      "cachedInput": 0,
+      "output": 478,
+      "reasoning": 673,
+      "total": 4359
+    },
+    "performance": {
+      "ttftMs": 1457,
+      "generationMs": 5066,
+      "totalLatencyMs": 6595,
+      "tokensPerSecond": 94.4
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0096,
+      "outputUsd": 0.0173,
+      "totalUsd": 0.0269
+    }
+  },
+  {
+    "id": "req_01VWXZ2KAD",
+    "conversationId": "conv_008340",
+    "userId": "user_0311",
+    "timestamp": "2026-11-21T02:50:52.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 663
+    },
+    "tokens": {
+      "input": 3459,
+      "cachedInput": 2224,
+      "output": 103,
+      "reasoning": 0,
+      "total": 3562
+    },
+    "performance": {
+      "ttftMs": 1059,
+      "generationMs": 1122,
+      "totalLatencyMs": 2188,
+      "tokensPerSecond": 91.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "error",
+      "finishReason": "content_filter",
+      "errorCode": "content_policy_violation"
+    },
+    "cost": {
+      "inputUsd": 0.0044,
+      "outputUsd": 0.0015,
+      "totalUsd": 0.0059
+    }
+  },
+  {
+    "id": "req_01NP60WXYN",
+    "conversationId": "conv_008532",
+    "userId": "user_0087",
+    "timestamp": "2026-11-21T03:02:20.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1015,
+      "cachedInput": 0,
+      "output": 286,
+      "reasoning": 182,
+      "total": 1483
+    },
+    "performance": {
+      "ttftMs": 1029,
+      "generationMs": 4239,
+      "totalLatencyMs": 5377,
+      "tokensPerSecond": 67.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.003,
+      "outputUsd": 0.007,
+      "totalUsd": 0.0101
+    }
+  },
+  {
+    "id": "req_018FGKH7P7",
+    "conversationId": "conv_008102",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T03:03:22.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1294,
+      "cachedInput": 0,
+      "output": 609,
+      "reasoning": 1298,
+      "total": 3201
+    },
+    "performance": {
+      "ttftMs": 4931,
+      "generationMs": 7539,
+      "totalLatencyMs": 12576,
+      "tokensPerSecond": 80.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0016,
+      "outputUsd": 0.0191,
+      "totalUsd": 0.0207
+    }
+  },
+  {
+    "id": "req_01QRHKTVW8",
+    "conversationId": "conv_008532",
+    "userId": "user_0087",
+    "timestamp": "2026-11-21T03:04:21.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 121
+    },
+    "tokens": {
+      "input": 1265,
+      "cachedInput": 0,
+      "output": 0,
+      "reasoning": 0,
+      "total": 1265
+    },
+    "performance": {
+      "ttftMs": 107,
+      "generationMs": 0,
+      "totalLatencyMs": 145,
+      "tokensPerSecond": 0.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "rate_limited",
+      "finishReason": "error",
+      "errorCode": "rate_limit_exceeded"
+    },
+    "cost": {
+      "inputUsd": 0.0,
+      "outputUsd": 0.0,
+      "totalUsd": 0.0
+    }
+  },
+  {
+    "id": "req_0193MYJ4WB",
+    "conversationId": "conv_008102",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T03:05:11.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 109
+    },
+    "tokens": {
+      "input": 1808,
+      "cachedInput": 1087,
+      "output": 110,
+      "reasoning": 0,
+      "total": 1918
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 1267,
+      "totalLatencyMs": 2552,
+      "tokensPerSecond": 86.8
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.001,
+      "outputUsd": 0.0011,
+      "totalUsd": 0.0021
+    }
+  },
+  {
+    "id": "req_012NFBAPZW",
+    "conversationId": "conv_008532",
+    "userId": "user_0087",
+    "timestamp": "2026-11-21T03:05:28.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 188
+    },
+    "tokens": {
+      "input": 1846,
+      "cachedInput": 1526,
+      "output": 607,
+      "reasoning": 0,
+      "total": 2453
+    },
+    "performance": {
+      "ttftMs": 1067,
+      "generationMs": 7369,
+      "totalLatencyMs": 8485,
+      "tokensPerSecond": 82.4
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0014,
+      "outputUsd": 0.0091,
+      "totalUsd": 0.0105
+    }
+  },
+  {
+    "id": "req_01Q1N6Z2RX",
+    "conversationId": "conv_008102",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T03:06:42.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 200
+    },
+    "tokens": {
+      "input": 1896,
+      "cachedInput": 1460,
+      "output": 184,
+      "reasoning": 142,
+      "total": 2222
+    },
+    "performance": {
+      "ttftMs": 1121,
+      "generationMs": 2569,
+      "totalLatencyMs": 3830,
+      "tokensPerSecond": 71.6
+    },
+    "tools": [
+      {
+        "name": "web_fetch",
+        "durationMs": 1437,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "tool_calls"
+    },
+    "cost": {
+      "inputUsd": 0.0007,
+      "outputUsd": 0.0033,
+      "totalUsd": 0.004
+    }
+  },
+  {
+    "id": "req_01S21EQZRE",
+    "conversationId": "conv_008532",
+    "userId": "user_0087",
+    "timestamp": "2026-11-21T03:07:45.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 325
+    },
+    "tokens": {
+      "input": 3336,
+      "cachedInput": 2471,
+      "output": 59,
+      "reasoning": 47,
+      "total": 3442
+    },
+    "performance": {
+      "ttftMs": 945,
+      "generationMs": 699,
+      "totalLatencyMs": 1676,
+      "tokensPerSecond": 84.4
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0033,
+      "outputUsd": 0.0016,
+      "totalUsd": 0.0049
+    }
+  },
+  {
+    "id": "req_01QABPCV0F",
+    "conversationId": "conv_008102",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T03:08:44.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 322
+    },
+    "tokens": {
+      "input": 2697,
+      "cachedInput": 1676,
+      "output": 64,
+      "reasoning": 92,
+      "total": 2853
+    },
+    "performance": {
+      "ttftMs": 893,
+      "generationMs": 764,
+      "totalLatencyMs": 1725,
+      "tokensPerSecond": 83.8
+    },
+    "tools": [
+      {
+        "name": "database_query",
+        "durationMs": 429,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0015,
+      "outputUsd": 0.0016,
+      "totalUsd": 0.003
+    }
+  },
+  {
+    "id": "req_016V9F7YMV",
+    "conversationId": "conv_008532",
+    "userId": "user_0087",
+    "timestamp": "2026-11-21T03:10:35.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 495
+    },
+    "tokens": {
+      "input": 3194,
+      "cachedInput": 1887,
+      "output": 280,
+      "reasoning": 185,
+      "total": 3659
+    },
+    "performance": {
+      "ttftMs": 722,
+      "generationMs": 2841,
+      "totalLatencyMs": 3636,
+      "tokensPerSecond": 98.6
+    },
+    "tools": [
+      {
+        "name": "file_reader",
+        "durationMs": 216,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0045,
+      "outputUsd": 0.007,
+      "totalUsd": 0.0115
+    }
+  },
+  {
+    "id": "req_01V8TH2JMB",
+    "conversationId": "conv_008102",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T03:12:07.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 525
+    },
+    "tokens": {
+      "input": 3584,
+      "cachedInput": 0,
+      "output": 328,
+      "reasoning": 0,
+      "total": 3912
+    },
+    "performance": {
+      "ttftMs": 582,
+      "generationMs": 5787,
+      "totalLatencyMs": 6419,
+      "tokensPerSecond": 56.7
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0045,
+      "outputUsd": 0.0033,
+      "totalUsd": 0.0078
+    }
+  },
+  {
+    "id": "req_01BWQZRZEE",
+    "conversationId": "conv_008532",
+    "userId": "user_0087",
+    "timestamp": "2026-11-21T03:14:33.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 733
+    },
+    "tokens": {
+      "input": 3895,
+      "cachedInput": 2160,
+      "output": 463,
+      "reasoning": 393,
+      "total": 4751
+    },
+    "performance": {
+      "ttftMs": 1237,
+      "generationMs": 5773,
+      "totalLatencyMs": 7064,
+      "tokensPerSecond": 80.2
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0059,
+      "outputUsd": 0.0128,
+      "totalUsd": 0.0187
+    }
+  },
+  {
+    "id": "req_019RPD25GR",
+    "conversationId": "conv_008102",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T03:14:46.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 684
+    },
+    "tokens": {
+      "input": 3922,
+      "cachedInput": 2761,
+      "output": 161,
+      "reasoning": 0,
+      "total": 4083
+    },
+    "performance": {
+      "ttftMs": 619,
+      "generationMs": 2242,
+      "totalLatencyMs": 2924,
+      "tokensPerSecond": 71.8
+    },
+    "tools": [
+      {
+        "name": "file_reader",
+        "durationMs": 639,
+        "status": "success"
+      },
+      {
+        "name": "file_reader",
+        "durationMs": 28,
+        "status": "success"
+      },
+      {
+        "name": "code_interpreter",
+        "durationMs": 403,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0018,
+      "outputUsd": 0.0016,
+      "totalUsd": 0.0034
+    }
+  },
+  {
+    "id": "req_01MCAZ824N",
+    "conversationId": "conv_008353",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T17:34:10.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1213,
+      "cachedInput": 0,
+      "output": 379,
+      "reasoning": 750,
+      "total": 2342
+    },
+    "performance": {
+      "ttftMs": 1950,
+      "generationMs": 4339,
+      "totalLatencyMs": 6336,
+      "tokensPerSecond": 87.3
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0036,
+      "outputUsd": 0.0169,
+      "totalUsd": 0.0206
+    }
+  },
+  {
+    "id": "req_01053VQ5JP",
+    "conversationId": "conv_008353",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T17:36:20.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 130
+    },
+    "tokens": {
+      "input": 2460,
+      "cachedInput": 1489,
+      "output": 631,
+      "reasoning": 1316,
+      "total": 4407
+    },
+    "performance": {
+      "ttftMs": 4298,
+      "generationMs": 10457,
+      "totalLatencyMs": 14847,
+      "tokensPerSecond": 60.3
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0034,
+      "outputUsd": 0.0292,
+      "totalUsd": 0.0326
+    }
+  },
+  {
+    "id": "req_01SY04TSWV",
+    "conversationId": "conv_008353",
+    "userId": "user_0678",
+    "timestamp": "2026-11-21T17:38:03.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-west-2"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 233
+    },
+    "tokens": {
+      "input": 2114,
+      "cachedInput": 0,
+      "output": 411,
+      "reasoning": 259,
+      "total": 2784
+    },
+    "performance": {
+      "ttftMs": 1347,
+      "generationMs": 5376,
+      "totalLatencyMs": 6809,
+      "tokensPerSecond": 76.5
+    },
+    "tools": [
+      {
+        "name": "code_interpreter",
+        "durationMs": 434,
+        "status": "success"
+      },
+      {
+        "name": "file_reader",
+        "durationMs": 206,
+        "status": "error"
+      }
+    ],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0063,
+      "outputUsd": 0.01,
+      "totalUsd": 0.0164
+    }
+  },
+  {
+    "id": "req_0173QEE9VK",
+    "conversationId": "conv_008494",
+    "userId": "user_0678",
+    "timestamp": "2026-11-22T02:26:14.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1053,
+      "cachedInput": 0,
+      "output": 0,
+      "reasoning": 0,
+      "total": 1053
+    },
+    "performance": {
+      "ttftMs": 3995,
+      "generationMs": 0,
+      "totalLatencyMs": 4026,
+      "tokensPerSecond": 0.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "error",
+      "finishReason": "error",
+      "errorCode": "upstream_5xx"
+    },
+    "cost": {
+      "inputUsd": 0.0,
+      "outputUsd": 0.0,
+      "totalUsd": 0.0
+    }
+  },
+  {
+    "id": "req_01EXMCRKBC",
+    "conversationId": "conv_008494",
+    "userId": "user_0678",
+    "timestamp": "2026-11-22T02:28:03.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "swedencentral"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 109
+    },
+    "tokens": {
+      "input": 1481,
+      "cachedInput": 1008,
+      "output": 396,
+      "reasoning": 432,
+      "total": 2309
+    },
+    "performance": {
+      "ttftMs": 2575,
+      "generationMs": 6133,
+      "totalLatencyMs": 8766,
+      "tokensPerSecond": 64.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0007,
+      "outputUsd": 0.0083,
+      "totalUsd": 0.009
+    }
+  },
+  {
+    "id": "req_01FQQFMGDS",
+    "conversationId": "conv_008221",
+    "userId": "user_0459",
+    "timestamp": "2026-11-22T03:16:49.381Z",
+    "model": {
+      "provider": "Google",
+      "name": "gemini-2.5-flash",
+      "region": "us-central1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1104,
+      "cachedInput": 0,
+      "output": 436,
+      "reasoning": 602,
+      "total": 2142
+    },
+    "performance": {
+      "ttftMs": 3270,
+      "generationMs": 3072,
+      "totalLatencyMs": 6387,
+      "tokensPerSecond": 141.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.7,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0003,
+      "outputUsd": 0.0026,
+      "totalUsd": 0.0029
+    }
+  },
+  {
+    "id": "req_0161301TFG",
+    "conversationId": "conv_008135",
+    "userId": "user_0203",
+    "timestamp": "2026-11-22T12:32:00.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-opus-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 304,
+      "cachedInput": 0,
+      "output": 869,
+      "reasoning": 1076,
+      "total": 2249
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 23704,
+      "totalLatencyMs": 27625,
+      "tokensPerSecond": 36.7
+    },
+    "tools": [
+      {
+        "name": "database_query",
+        "durationMs": 112,
+        "status": "success"
+      },
+      {
+        "name": "code_interpreter",
+        "durationMs": 187,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.7,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "tool_calls"
+    },
+    "cost": {
+      "inputUsd": 0.0015,
+      "outputUsd": 0.0486,
+      "totalUsd": 0.0501
+    }
+  },
+  {
+    "id": "req_01EBYKZ04K",
+    "conversationId": "conv_008135",
+    "userId": "user_0203",
+    "timestamp": "2026-11-22T12:34:54.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-opus-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 174
+    },
+    "tokens": {
+      "input": 1241,
+      "cachedInput": 767,
+      "output": 86,
+      "reasoning": 139,
+      "total": 1466
+    },
+    "performance": {
+      "ttftMs": 1019,
+      "generationMs": 1597,
+      "totalLatencyMs": 2642,
+      "tokensPerSecond": 53.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0028,
+      "outputUsd": 0.0056,
+      "totalUsd": 0.0084
+    }
+  },
+  {
+    "id": "req_01C8P1N484",
+    "conversationId": "conv_008135",
+    "userId": "user_0203",
+    "timestamp": "2026-11-22T12:36:43.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-opus-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 283
+    },
+    "tokens": {
+      "input": 2033,
+      "cachedInput": 0,
+      "output": 115,
+      "reasoning": 167,
+      "total": 2315
+    },
+    "performance": {
+      "ttftMs": 1446,
+      "generationMs": 1796,
+      "totalLatencyMs": 3328,
+      "tokensPerSecond": 64.0
+    },
+    "tools": [
+      {
+        "name": "database_query",
+        "durationMs": 304,
+        "status": "success"
+      },
+      {
+        "name": "web_fetch",
+        "durationMs": 243,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0102,
+      "outputUsd": 0.007,
+      "totalUsd": 0.0172
+    }
+  },
+  {
+    "id": "req_01RJ4DW9QF",
+    "conversationId": "conv_008345",
+    "userId": "user_0512",
+    "timestamp": "2026-11-22T15:33:19.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "eu-west-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1496,
+      "cachedInput": 0,
+      "output": 242,
+      "reasoning": 487,
+      "total": 2225
+    },
+    "performance": {
+      "ttftMs": 2426,
+      "generationMs": 2432,
+      "totalLatencyMs": 4951,
+      "tokensPerSecond": 99.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0045,
+      "outputUsd": 0.0109,
+      "totalUsd": 0.0154
+    }
+  },
+  {
+    "id": "req_01JEF5M305",
+    "conversationId": "conv_008018",
+    "userId": "user_0311",
+    "timestamp": "2026-11-22T17:49:55.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 837,
+      "cachedInput": 0,
+      "output": 195,
+      "reasoning": 202,
+      "total": 1234
+    },
+    "performance": {
+      "ttftMs": 1428,
+      "generationMs": 2458,
+      "totalLatencyMs": 3950,
+      "tokensPerSecond": 79.3
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0025,
+      "outputUsd": 0.006,
+      "totalUsd": 0.0085
+    }
+  },
+  {
+    "id": "req_012K2GDDCV",
+    "conversationId": "conv_008018",
+    "userId": "user_0311",
+    "timestamp": "2026-11-22T17:51:05.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 70
+    },
+    "tokens": {
+      "input": 1706,
+      "cachedInput": 1165,
+      "output": 156,
+      "reasoning": 126,
+      "total": 1988
+    },
+    "performance": {
+      "ttftMs": 921,
+      "generationMs": 2374,
+      "totalLatencyMs": 3432,
+      "tokensPerSecond": 65.7
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.002,
+      "outputUsd": 0.0042,
+      "totalUsd": 0.0062
+    }
+  },
+  {
+    "id": "req_018PAVB5JQ",
+    "conversationId": "conv_008018",
+    "userId": "user_0311",
+    "timestamp": "2026-11-22T17:53:48.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 233
+    },
+    "tokens": {
+      "input": 2177,
+      "cachedInput": 1281,
+      "output": 242,
+      "reasoning": 132,
+      "total": 2551
+    },
+    "performance": {
+      "ttftMs": 1473,
+      "generationMs": 2562,
+      "totalLatencyMs": 4115,
+      "tokensPerSecond": 94.5
+    },
+    "tools": [
+      {
+        "name": "calculator",
+        "durationMs": 381,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0031,
+      "outputUsd": 0.0056,
+      "totalUsd": 0.0087
+    }
+  },
+  {
+    "id": "req_01QDKEXY57",
+    "conversationId": "conv_008018",
+    "userId": "user_0311",
+    "timestamp": "2026-11-22T17:54:37.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 282
+    },
+    "tokens": {
+      "input": 2949,
+      "cachedInput": 2234,
+      "output": 171,
+      "reasoning": 200,
+      "total": 3320
+    },
+    "performance": {
+      "ttftMs": 1436,
+      "generationMs": 2357,
+      "totalLatencyMs": 3876,
+      "tokensPerSecond": 72.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "length"
+    },
+    "cost": {
+      "inputUsd": 0.0028,
+      "outputUsd": 0.0056,
+      "totalUsd": 0.0084
+    }
+  },
+  {
+    "id": "req_016C0QYMBV",
+    "conversationId": "conv_008018",
+    "userId": "user_0311",
+    "timestamp": "2026-11-22T17:56:34.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 5,
+      "ageSeconds": 399
+    },
+    "tokens": {
+      "input": 2700,
+      "cachedInput": 2191,
+      "output": 345,
+      "reasoning": 393,
+      "total": 3438
+    },
+    "performance": {
+      "ttftMs": 2163,
+      "generationMs": 3770,
+      "totalLatencyMs": 5991,
+      "tokensPerSecond": 91.5
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0022,
+      "outputUsd": 0.0111,
+      "totalUsd": 0.0133
+    }
+  },
+  {
+    "id": "req_01QH4HTXJZ",
+    "conversationId": "conv_008018",
+    "userId": "user_0311",
+    "timestamp": "2026-11-22T18:00:08.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 6,
+      "ageSeconds": 613
+    },
+    "tokens": {
+      "input": 3948,
+      "cachedInput": 0,
+      "output": 0,
+      "reasoning": 0,
+      "total": 3948
+    },
+    "performance": {
+      "ttftMs": 30000,
+      "generationMs": 0,
+      "totalLatencyMs": 30005,
+      "tokensPerSecond": 0.0
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "timeout",
+      "finishReason": "error",
+      "errorCode": "request_timeout"
+    },
+    "cost": {
+      "inputUsd": 0.0,
+      "outputUsd": 0.0,
+      "totalUsd": 0.0
+    }
+  },
+  {
+    "id": "req_0122V7MDJ3",
+    "conversationId": "conv_008018",
+    "userId": "user_0311",
+    "timestamp": "2026-11-22T18:04:19.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 7,
+      "ageSeconds": 864
+    },
+    "tokens": {
+      "input": 4638,
+      "cachedInput": 3330,
+      "output": 1106,
+      "reasoning": 0,
+      "total": 5744
+    },
+    "performance": {
+      "ttftMs": 919,
+      "generationMs": 15172,
+      "totalLatencyMs": 16135,
+      "tokensPerSecond": 72.9
+    },
+    "tools": [],
+    "request": {
+      "temperature": 1.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0049,
+      "outputUsd": 0.0166,
+      "totalUsd": 0.0215
+    }
+  },
+  {
+    "id": "req_01AM0YQM8K",
+    "conversationId": "conv_008018",
+    "userId": "user_0311",
+    "timestamp": "2026-11-22T18:05:28.381Z",
+    "model": {
+      "provider": "Anthropic",
+      "name": "claude-sonnet-5-5",
+      "region": "us-east-1"
+    },
+    "conversation": {
+      "turn": 8,
+      "ageSeconds": 933
+    },
+    "tokens": {
+      "input": 4740,
+      "cachedInput": 3022,
+      "output": 303,
+      "reasoning": 131,
+      "total": 5174
+    },
+    "performance": {
+      "ttftMs": null,
+      "generationMs": 4908,
+      "totalLatencyMs": 6158,
+      "tokensPerSecond": 61.7
+    },
+    "tools": [
+      {
+        "name": "search",
+        "durationMs": 565,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": false
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0061,
+      "outputUsd": 0.0065,
+      "totalUsd": 0.0126
+    }
+  },
+  {
+    "id": "req_01034BGSP5",
+    "conversationId": "conv_008572",
+    "userId": "user_0042",
+    "timestamp": "2026-11-22T18:10:59.381Z",
+    "model": {
+      "provider": "Google",
+      "name": "gemini-2.5-flash",
+      "region": "europe-west4"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 1125,
+      "cachedInput": 0,
+      "output": 151,
+      "reasoning": 189,
+      "total": 1465
+    },
+    "performance": {
+      "ttftMs": 1157,
+      "generationMs": 966,
+      "totalLatencyMs": 2218,
+      "tokensPerSecond": 156.3
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0003,
+      "outputUsd": 0.0008,
+      "totalUsd": 0.0012
+    }
+  },
+  {
+    "id": "req_01XDYMYN1P",
+    "conversationId": "conv_008572",
+    "userId": "user_0042",
+    "timestamp": "2026-11-22T18:14:02.381Z",
+    "model": {
+      "provider": "Google",
+      "name": "gemini-2.5-flash",
+      "region": "europe-west4"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 183
+    },
+    "tokens": {
+      "input": 1685,
+      "cachedInput": 1380,
+      "output": 866,
+      "reasoning": 1345,
+      "total": 3896
+    },
+    "performance": {
+      "ttftMs": 3889,
+      "generationMs": 7560,
+      "totalLatencyMs": 11567,
+      "tokensPerSecond": 114.6
+    },
+    "tools": [
+      {
+        "name": "calculator",
+        "durationMs": 248,
+        "status": "success"
+      },
+      {
+        "name": "file_reader",
+        "durationMs": 188,
+        "status": "success"
+      },
+      {
+        "name": "web_fetch",
+        "durationMs": 493,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0001,
+      "outputUsd": 0.0055,
+      "totalUsd": 0.0057
+    }
+  },
+  {
+    "id": "req_01NDV2JQ0P",
+    "conversationId": "conv_008572",
+    "userId": "user_0042",
+    "timestamp": "2026-11-22T18:14:40.381Z",
+    "model": {
+      "provider": "Google",
+      "name": "gemini-2.5-flash",
+      "region": "europe-west4"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 221
+    },
+    "tokens": {
+      "input": 1757,
+      "cachedInput": 1469,
+      "output": 257,
+      "reasoning": 175,
+      "total": 2189
+    },
+    "performance": {
+      "ttftMs": 605,
+      "generationMs": 1839,
+      "totalLatencyMs": 2493,
+      "tokensPerSecond": 139.7
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0001,
+      "outputUsd": 0.0011,
+      "totalUsd": 0.0012
+    }
+  },
+  {
+    "id": "req_01J6GKYG20",
+    "conversationId": "conv_008091",
+    "userId": "user_0087",
+    "timestamp": "2026-11-22T20:35:39.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 1,
+      "ageSeconds": 0
+    },
+    "tokens": {
+      "input": 737,
+      "cachedInput": 0,
+      "output": 80,
+      "reasoning": 135,
+      "total": 952
+    },
+    "performance": {
+      "ttftMs": 1310,
+      "generationMs": 730,
+      "totalLatencyMs": 2175,
+      "tokensPerSecond": 109.6
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.5,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0002,
+      "outputUsd": 0.0004,
+      "totalUsd": 0.0006
+    }
+  },
+  {
+    "id": "req_01077TR0AE",
+    "conversationId": "conv_008091",
+    "userId": "user_0087",
+    "timestamp": "2026-11-22T20:35:55.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 2,
+      "ageSeconds": 16
+    },
+    "tokens": {
+      "input": 1168,
+      "cachedInput": 755,
+      "output": 752,
+      "reasoning": 319,
+      "total": 2239
+    },
+    "performance": {
+      "ttftMs": 950,
+      "generationMs": 5234,
+      "totalLatencyMs": 6313,
+      "tokensPerSecond": 143.7
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0001,
+      "outputUsd": 0.0021,
+      "totalUsd": 0.0023
+    }
+  },
+  {
+    "id": "req_01GK6VZHW5",
+    "conversationId": "conv_008091",
+    "userId": "user_0087",
+    "timestamp": "2026-11-22T20:38:00.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 3,
+      "ageSeconds": 141
+    },
+    "tokens": {
+      "input": 1891,
+      "cachedInput": 0,
+      "output": 173,
+      "reasoning": 149,
+      "total": 2213
+    },
+    "performance": {
+      "ttftMs": 1436,
+      "generationMs": 1634,
+      "totalLatencyMs": 3201,
+      "tokensPerSecond": 105.9
+    },
+    "tools": [
+      {
+        "name": "file_reader",
+        "durationMs": 526,
+        "status": "success"
+      },
+      {
+        "name": "calculator",
+        "durationMs": 304,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0005,
+      "outputUsd": 0.0006,
+      "totalUsd": 0.0011
+    }
+  },
+  {
+    "id": "req_01YWQD89ET",
+    "conversationId": "conv_008091",
+    "userId": "user_0087",
+    "timestamp": "2026-11-22T20:38:44.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5-mini",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 4,
+      "ageSeconds": 185
+    },
+    "tokens": {
+      "input": 2504,
+      "cachedInput": 2061,
+      "output": 159,
+      "reasoning": 245,
+      "total": 2908
+    },
+    "performance": {
+      "ttftMs": 1433,
+      "generationMs": 968,
+      "totalLatencyMs": 2518,
+      "tokensPerSecond": 164.3
+    },
+    "tools": [],
+    "request": {
+      "temperature": 0.0,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0002,
+      "outputUsd": 0.0008,
+      "totalUsd": 0.001
+    }
+  },
+  {
+    "id": "req_01JD8RK4QE",
+    "conversationId": "conv_008271",
+    "userId": "user_0142",
+    "timestamp": "2026-11-23T14:31:42.381Z",
+    "model": {
+      "provider": "OpenAI",
+      "name": "gpt-5",
+      "region": "eastus"
+    },
+    "conversation": {
+      "turn": 7,
+      "ageSeconds": 1842
+    },
+    "tokens": {
+      "input": 4281,
+      "cachedInput": 3012,
+      "output": 684,
+      "reasoning": 927,
+      "total": 5892
+    },
+    "performance": {
+      "ttftMs": 843,
+      "generationMs": 9104,
+      "totalLatencyMs": 10037,
+      "tokensPerSecond": 75.1
+    },
+    "tools": [
+      {
+        "name": "search",
+        "durationMs": 523,
+        "status": "success"
+      },
+      {
+        "name": "database_query",
+        "durationMs": 211,
+        "status": "success"
+      }
+    ],
+    "request": {
+      "temperature": 0.2,
+      "streaming": true
+    },
+    "result": {
+      "status": "success",
+      "finishReason": "stop"
+    },
+    "cost": {
+      "inputUsd": 0.0064,
+      "outputUsd": 0.0055,
+      "totalUsd": 0.0119
+    }
+  }
+]
